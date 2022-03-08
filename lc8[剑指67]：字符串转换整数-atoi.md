@@ -1,4 +1,4 @@
-# lc8：字符串转换整数-atoi
+# lc8[剑指67]：字符串转换整数-atoi
 
 ## 题目
 
@@ -139,6 +139,7 @@ public:
         else if(s[i]=='-'){
             sign=-1;
             i++;
+        }
         int res=0;
         //向后遍历
         for(i;i<length && s[i]>='0' && s[i]<='9';i++){
